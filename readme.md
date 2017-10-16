@@ -24,6 +24,10 @@ mdw# cd /vagrant
 mdw# ./gpinstall.sh
 ```
 
+```
+VAGRANT_LOG=debug vagrant up
+```
+
 ## GP配置
 
 ### 登陆

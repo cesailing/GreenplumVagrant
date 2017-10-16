@@ -1,0 +1,5 @@
+.vagrant
+centos-6-9-x64-virtualbox.box
+greenplum-db-4.3.6.2-build-1-RHEL5-x86_64.bin
+test
+packer_cache

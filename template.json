@@ -20,7 +20,7 @@
       "type": "vagrant",
       "override": {
         "virtualbox": {
-          "output": "centos-6-7-x64-virtualbox.box"
+          "output": "centos-6-9-x64-virtualbox.box"
         }
       }
     }
@@ -35,9 +35,9 @@
       "disk_size": 40520,
       "guest_os_type": "RedHat_64",
       "http_directory": "http",
-      "iso_checksum": "2ed5ea551dffc3e4b82847b3cee1f6cd748e8071",
+      "iso_checksum": "b23d4d996d2cb5b370120588d5ea18a9cfba7881",
       "iso_checksum_type": "sha1",
-      "iso_url": "http://mirror.hmc.edu/centos/6/isos/x86_64/CentOS-6.7-x86_64-minimal.iso",
+      "iso_url": "file:///home/maoren/下载/iso/CentOS-6.9-x86_64-minimal.iso",
       "ssh_username": "vagrant",
       "ssh_password": "vagrant",
       "ssh_port": 22,
@@ -48,7 +48,8 @@
       "vboxmanage": [
         [ "modifyvm", "{{.Name}}", "--memory", "512" ],
         [ "modifyvm", "{{.Name}}", "--cpus", "1" ]
-      ]
+      ],
+      "vm_name": "centos69_amd64"
     }
   ]
 }

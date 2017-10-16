@@ -1,3 +1,4 @@
+GPBIN=greenplum-db-4.3.6.2-build-1-RHEL5-x86_64.bin
 # firewall close
 service iptables stop
 
